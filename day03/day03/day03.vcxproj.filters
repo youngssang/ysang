@@ -51,5 +51,67 @@
     <ClCompile Include="nested_for2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="seat.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="array1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="array2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="alphabat.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stream.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="arraycopy.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="array3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function_return.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="math_ex.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="time_ex.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="land_ex.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="localva.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="staticva.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="globalva.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="add.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="addname.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="findmax.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -9,6 +9,7 @@ int main() {
 	while (sw) {
 		int selNo;  //선택 변수
 		int money;  //입출금 변수
+
 		printf("================================\n");
 		printf(" 1. 예금 | 2. 출금 | 3. 잔고 | 4. 종료 \n");
 		printf("================================\n");
@@ -24,13 +25,22 @@ int main() {
 			balance += money;
 		}
 		else if (selNo == 2) {
-			printf("출금액> ");
-			scanf_s("%d", &money);
-			balance -= money;
-		}
+			//출금액이 잔액을 초과한 경우 "잔액을 초과했습니다. 다시 입력해주세요."
+			while(sw) {
+				printf("출금액> ");
+				scanf_s("%d", &money);
+				if (money > balance) {
+					printf("잔액을 초과했습니다. 다시 입력해주세요.\n");
+				}
+			else {
+				balance -= money;
+				printf("정상 처리 되었습니다.\n");
+				break;
+			}
+
+			}
 		else if (selNo == 3) {
 			printf("잔고> %d\n", balance);
-			printf()
 		}
 		else if (selNo == 4) {
 			sw = 0;    //1 -> 0 으로 변경
