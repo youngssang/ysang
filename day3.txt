@@ -1,6 +1,7 @@
 입력하세요 :
 #define _CRT_SECURE_NO_WARNINGS
 입력 중지 : ctrl + c
+전체 선택 : ctrl + a
 int = 변수 ?
 sum = 합계
 
@@ -38,3 +39,4 @@ j = 열
 배열 Array  int score
 []안에 설정한 값만큼 메모리를 항당하여 저장한다.
 배열 변수의 선언과 사용
+arr[] = {

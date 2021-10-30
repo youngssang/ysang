@@ -1,4 +1,1 @@
-﻿  findmax.c
-C:\devC\day03\day03\findmax.c(10,22): warning C4013: 'findMax'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\devC\day03\day03\findmax.c(11,25): warning C4013: 'findMaxIdx'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  day03.vcxproj -> C:\devC\day03\Debug\day03.exe
+﻿  day03.vcxproj -> C:\devC\day03\Debug\day03.exe

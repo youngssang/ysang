@@ -8,7 +8,6 @@ int main() {
 	//rand() 함수 - <stdlib.h> include
 	//srand(seed) 함께 사용 - seed 배정
 	srand(time(NULL)); //시간이 흐르므로 seed값이 변경됨
-
 	printf("%d\n", rand());
 
 

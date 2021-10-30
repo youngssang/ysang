@@ -26,7 +26,7 @@ int main() {
 	//합계
 	//printf("합계 : %d\n", a[0]+a[1]+a[2])
 	for (i = 0; i < 3; i++) {
-		sum += a[i];  
+		sum += a[i];  //sm = sum + 1
 	}
 		
 	printf("합계 : %d\n", sum);
