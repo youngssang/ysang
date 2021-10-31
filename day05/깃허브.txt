@@ -1,0 +1,7 @@
+cd c:/devC  < 절대 명령어. 바로 가기
+cd..
+git status
+git add *
+git commit -m "day05"
+git push (새로 저장하기)
+git pull (중간 저장하기)

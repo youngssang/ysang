@@ -1,2 +1,4 @@
-﻿  sayhello.c
+﻿  pointer1.c
+C:\devC\day05\day05\day05\pointer1.c(13,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\devC\day05\day05\day05\pointer1.c(17,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
   day05.vcxproj -> C:\devC\day05\day05\Debug\day05.exe

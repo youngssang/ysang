@@ -15,7 +15,7 @@ int main() {
 	// 포인터 자료형의 크기는 모두 4byte임.
 
 	printf("%x %d\n", ip, *ip);     // ip의 저장 값, *ip의 값 출력
-	printf("%d %d\n", sizeof(iNum), sizeof(ip));  //1byte, 4byte
+	printf("%d %d\n", sizeof(iNum), sizeof(ip));  //4byte, 4byte
 
 
 	return 0;
